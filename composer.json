@@ -1,0 +1,27 @@
+{
+  "name": "lfphp/protocoljson",
+  "description": "PHP protocol in json",
+  "require": {
+	"php": ">=5.6",
+	"ext-mbstring": "*",
+	"lfphp/func": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+	"psr-4": {
+	  "LFPhp\\ProtocolJSON\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "LFPhp\\ProtocolJSON\\Test\\": "test/"
+	}
+  },
+  "repositories": {
+	"packagist": {
+	  "type": "composer",
+	  "url": "https://mirrors.aliyun.com/composer/"
+	}
+  }
+}
